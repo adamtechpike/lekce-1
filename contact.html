@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Adamův krásný web</title>
+    <title>Jumbotron Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,7 +18,7 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#">Adamův první úkol</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,19 +26,18 @@
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/lekce-1/">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/lekce-1/">Home </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/lekce-1/about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/lekce-1/contact.html">Contact</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="/lekce-1/contact.html">Contact <span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
     </nav>
-
     <main role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -53,29 +52,65 @@
       <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-6">
             <h2>Heading</h2>
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <h2>Heading</h2>
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
+         
         </div>
 
         <hr>
 
       </div> <!-- /container -->
+      
+   </main>
 
-    </main>
+      <div class="container">
 
+<h2>Napište nám</h2>
+    
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Emailová adresa</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  
+ Typ dotazu
+ <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Obecný dotaz
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    Konkrétní dotaz
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+  <label class="form-check-label" for="exampleRadios3">
+    Bez dotazu
+  </label>
+</div>
+ <div class="form-group">
+ 
+    <label for="exampleFormControlTextarea1">Prostor pro vaši zprávu</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div> 
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+      </div> <!-- /container -->
+
+ 
     <footer class="container">
       <p>&copy; Company 2017-2018</p>
     </footer>
